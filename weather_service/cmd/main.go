@@ -56,7 +56,7 @@
 package main
 
 import (
-	"Labs/goexperts-lab-otel/weather_service/internal/handler"
+	"github.com/emebit/goexperts-lab-otel/weather_service/internal/handler"
 	"context"
 	"log"
 	"net/http"
