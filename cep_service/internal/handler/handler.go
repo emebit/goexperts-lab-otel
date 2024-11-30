@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"Labs/goexperts-lab-otel/cep_service/internal/service"
+	"github.com/emebit/goexperts-lab-otel/cep_service/internal/service"
 	"encoding/json"
 	"log/slog"
 	"net/http"
