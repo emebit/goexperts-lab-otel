@@ -27,7 +27,7 @@
 package main
 
 import (
-	"Labs/goexperts-lab-otel/cep_service/internal/handler"
+	"github.com/emebit/goexperts-lab-otel/cep_service/internal/handler"
 	"context"
 	"log"
 	"net/http"
