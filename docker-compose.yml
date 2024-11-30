@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  cep_service:
+    build: ./cep_service
+    ports:
+      - "8080:8080"
+    environment:
+      - URL_TEMP=weather_service
+      - URL_ZIPKIN=zipkin
+
+  weather_service:
+    build: ./weather_service
+    ports:
+      - "9090:9090"
+    environment:
+      - URL_ZIPKIN=zipkin
+
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
