@@ -1,7 +1,7 @@
 package handler
 
 import (
-	services "Labs/goexperts-lab-otel/weather_service/service"
+	services "github.com/emebit/goexperts-lab-otel/weather_service/service"
 
 	"encoding/json"
 	"fmt"
